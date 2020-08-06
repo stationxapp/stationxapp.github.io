@@ -836,7 +836,13 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/app.min.js"></script>
-  <script src="assets/js/templates.js"></script>
+  <!-- <script src="assets/js/templates.js"></script> -->
+  <script> 
+    var header = Handlebars.templates.header;
+document.getElementById('header').innerHTML = header({index:true});
+var footer = Handlebars.templates.footer;
+document.getElementById('footer').innerHTML = footer();
+  </script>
   <script src="assets/js/main.js"></script>
 </body>
 

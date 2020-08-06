@@ -1,3 +1,6 @@
+git ls-files -m | sed 's/^/git add /g' > git_add.sh
+git commit -m 'commit'; git push
+
 node_modules/uglify-js/bin/uglifyjs \
 jq_securities/assets/vendor/jquery/jquery.min.js \
 jq_securities/assets/vendor/bootstrap/js/bootstrap.bundle.min.js \
@@ -19,5 +22,10 @@ jq_securities/templates/footer.precompiled.js \
 jq_securities/templates/example.precompiled.js \
 -o jq_securities/assets/js/app.min.js -c -m
 
-node_modules/handlebars/bin/handlebars jq_securities/templates/header.handlebars -f jq_securities/templates/header.precompiled.js
-node_modules/handlebars/bin/handlebars jq_securities/templates/footer.handlebars -f jq_securities/templates/footer.precompiled.js
+node_modules/handlebars/bin/handlebars \
+jq_securities/templates/header.handlebars \
+-f jq_securities/templates/header.precompiled.js
+
+node_modules/handlebars/bin/handlebars \
+jq_securities/templates/footer.handlebars \
+-f jq_securities/templates/footer.precompiled.js

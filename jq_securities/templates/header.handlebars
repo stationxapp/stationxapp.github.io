@@ -6,8 +6,16 @@
 
       <nav id="nav-menu" class="nav-menu d-none d-lg-block">
         <ul>
-          <li class="active"><a href="index.html">公司介紹</a></li>
-          <li><a href="stakeholders.html">股東背景</a></li>
+          {{#if index}}
+            <li class="active"><a href="index.html">公司介紹</a></li>
+          {{else}}
+            <li><a href="index.html">公司介紹</a></li>
+          {{/if}}
+          {{#if stakeholders}}
+            <li class="active"><a href="stakeholders.html">股東背景</a></li>
+          {{else}}
+            <li><a href="stakeholders.html">股東背景</a></li>
+          {{/if}}
           <li><a href="#portfolio">股權結構</a></li>
           <li><a href="#team">公司結構</a></li>
           <li class="drop-down"><a href="">業務活動</a>
