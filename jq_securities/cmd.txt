@@ -1,6 +1,9 @@
 git ls-files -m | sed 's/^/git add /g' > git_add.sh
 git commit -m 'commit'; git push
 
+
+git ls-files -m | sed 's/^/git add /g' > git_add.sh; ./git_add.sh; git commit -m 'commit'; git push
+
 node_modules/uglify-js/bin/uglifyjs \
 jq_securities/assets/vendor/jquery/jquery.min.js \
 jq_securities/assets/vendor/bootstrap/js/bootstrap.bundle.min.js \
