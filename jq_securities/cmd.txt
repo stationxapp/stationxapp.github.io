@@ -1,0 +1,23 @@
+node_modules/uglify-js/bin/uglifyjs \
+jq_securities/assets/vendor/jquery/jquery.min.js \
+jq_securities/assets/vendor/bootstrap/js/bootstrap.bundle.min.js \
+jq_securities/assets/vendor/jquery.easing/jquery.easing.min.js \
+jq_securities/assets/vendor/waypoints/jquery.waypoints.min.js \
+jq_securities/assets/vendor/counterup/counterup.min.js \
+jq_securities/assets/vendor/venobox/venobox.min.js \
+jq_securities/assets/vendor/owl.carousel/owl.carousel.min.js \
+jq_securities/assets/vendor/isotope-layout/isotope.pkgd.min.js \
+jq_securities/assets/vendor/aos/aos.js \
+jq_securities/assets/vendor/handlebars/handlebars.min.js \
+jq_securities/assets/vendor/handlebars/handlebars.runtime.js \
+-o jq_securities/assets/js/vendor.min.js -c -m
+
+node_modules/uglify-js/bin/uglifyjs \
+jq_securities/templates/config.js \
+jq_securities/templates/header.precompiled.js \
+jq_securities/templates/footer.precompiled.js \
+jq_securities/templates/example.precompiled.js \
+-o jq_securities/assets/js/app.min.js -c -m
+
+node_modules/handlebars/bin/handlebars jq_securities/templates/header.handlebars -f jq_securities/templates/header.precompiled.js
+node_modules/handlebars/bin/handlebars jq_securities/templates/footer.handlebars -f jq_securities/templates/footer.precompiled.js
