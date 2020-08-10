@@ -19,16 +19,19 @@ jq_securities/assets/vendor/handlebars/handlebars.runtime.js \
 -o jq_securities/assets/js/vendor.min.js -c -m
 
 node_modules/uglify-js/bin/uglifyjs \
-jq_securities/templates/config.js \
-jq_securities/templates/header.precompiled.js \
-jq_securities/templates/footer.precompiled.js \
-jq_securities/templates/example.precompiled.js \
+jq_securities/templates/ch_header.precompiled.js \
+jq_securities/templates/en_header.precompiled.js \
+jq_securities/templates/ch_footer.precompiled.js \
 -o jq_securities/assets/js/app.min.js -c -m
 
 node_modules/handlebars/bin/handlebars \
-jq_securities/templates/header.handlebars \
--f jq_securities/templates/header.precompiled.js
+jq_securities/templates/en_header.handlebars \
+-f jq_securities/templates/en_header.precompiled.js
 
 node_modules/handlebars/bin/handlebars \
-jq_securities/templates/footer.handlebars \
--f jq_securities/templates/footer.precompiled.js
+jq_securities/templates/ch_header.handlebars \
+-f jq_securities/templates/ch_header.precompiled.js
+
+node_modules/handlebars/bin/handlebars \
+jq_securities/templates/ch_footer.handlebars \
+-f jq_securities/templates/ch_footer.precompiled.js

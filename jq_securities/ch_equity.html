@@ -1,11 +1,11 @@
-<!DOCTYPE html>
+o<!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Inner Page - Multi Bootstrap Template</title>
+  <title>金信期盈証券(香港)有限公司</title>
   <meta content="" name="descriptison">
   <meta content="" name="keywords">
 
@@ -51,19 +51,27 @@
       <div class="container">
 
         <ol>
-          <li><a href="index.html">Home</a></li>
-          <li>Inner Page</li>
+          <li><a href="index.html">回到主頁</a></li>
+          <li>公司結構</li>
         </ol>
-        <h2>Inner Page</h2>
-
+        <h2>股權結構</h2>
       </div>
     </section><!-- End Breadcrumbs -->
 
     <section class="inner-page">
       <div class="container">
         <p>
-          Example inner page template
+          3. 股權結構	
+
         </p>
+        <div class="row">
+          <div class="col-1 col-sm-1 col-md-2"></div>
+          <div class="col-10 col-sm-10 col-md-8">
+            <img src="assets/img/equity.png" class="img-fluid">
+          </div>
+          <div class="col-1 col-sm-1 col-md-2"></div>
+        </div>
+
       </div>
     </section>
 
@@ -153,9 +161,9 @@
   <!-- Template Main JS File -->
   <script src="assets/js/app.min.js"></script>
   <script> 
-    var header = Handlebars.templates.header;
-document.getElementById('header').innerHTML = header({stakeholders:true});
-var footer = Handlebars.templates.footer;
+    var header = Handlebars.templates.ch_header;
+document.getElementById('header').innerHTML = header({organization:true});
+var footer = Handlebars.templates.ch_footer;
 document.getElementById('footer').innerHTML = footer();
   </script>
   <script src="assets/js/main.js"></script>
