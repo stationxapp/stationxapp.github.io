@@ -2,7 +2,7 @@
   "_args": [
     [
       "@fortawesome/fontawesome-free@5.13.1",
-      "/Users/sysroot/github/stationx/stationxapp.github.io"
+      "/mnt/c/Users/travi/github/stationxapp.github.io"
     ]
   ],
   "_from": "@fortawesome/fontawesome-free@5.13.1",
@@ -27,7 +27,7 @@
   ],
   "_resolved": "https://registry.npmjs.org/@fortawesome/fontawesome-free/-/fontawesome-free-5.13.1.tgz",
   "_spec": "5.13.1",
-  "_where": "/Users/sysroot/github/stationx/stationxapp.github.io",
+  "_where": "/mnt/c/Users/travi/github/stationxapp.github.io",
   "author": {
     "name": "Dave Gandy",
     "email": "dave@fontawesome.com",

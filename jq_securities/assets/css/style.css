@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  /*font-family: "Open Sans", sans-serif;*/
   color: #444444;
 }
 
@@ -23,7 +23,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+  /*font-family: "Raleway", sans-serif;*/
 }
 
 /*--------------------------------------------------------------
@@ -108,7 +108,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #fff;
   transition: all 0.5s;
   z-index: 997;
-  padding: 20px 0;
+  padding: 5px 0;
 }
 
 #header.header-scrolled {
@@ -130,9 +130,11 @@ h1, h2, h3, h4, h5, h6 {
   color: #0b2341;
 }
 
+/*
 #header .logo img {
   max-height: 40px;
 }
+*/
 
 @media (max-width: 992px) {
   #header .logo {
@@ -1789,7 +1791,7 @@ section {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Raleway", sans-serif;
+  /*font-family: "Raleway", sans-serif;*/
 }
 
 #footer .footer-top .social-links a {

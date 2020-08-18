@@ -18,7 +18,7 @@
       <div class="container">
 
         <ol>
-          <li><a href="index.html">回到主頁</a></li>
+          <li><a href="index.html">回到主页</a></li>
           <li>操作模式</li>
         </ol>
         <h2>牌照</h2>
@@ -27,18 +27,26 @@
 
     <section class="inner-page">
       <div class="container">
+
+
         <p>
-          9. 牌照 
-          9.1. 証監會牌照 (中央編號: BLF 248) – 自2018 年5 月生效 
-          • 第一類（証券交易） 
-          • 第四類（就証券提供意見） 
-          • 第九類（資產管理） 
+          <h5>证监会牌照 (中央编号: BLF 248) – 自2018 年5 月生效</h5><br>
+          • 第一类（证券交易）<br> 
+          • 第四类（就证券提供意见） <br>
+          • 第九类（资产管理） <br>
           
-          9.2. 香港聯合交易所參與者 – 自2019 年2 月生效 
-          • 交易所參與者（參與者代號：02140） 
-          • 直接結算參與者（參與者代號：B02140） 
           
         </p>
+        <br>
+
+         <p>
+          <h5>香港联合交易所参与者 – 自2019 年2 月生效 </h5><br>
+          • 交易所参与者（参与者代号：02140） <br>
+          • 直接结算参与者（参与者代号：B02140） <br>
+          
+          
+        </p>
+        <br>
       </div>
     </section>
 
@@ -128,11 +136,11 @@
   <!-- Template Main JS File -->
   <script src="assets/js/app.min.js"></script>
   <script> 
-  var head = Handlebars.templates.head_cn;
+  var head = Handlebars.templates.head_hk;
   document.getElementById('head').innerHTML = head();
-  var header = Handlebars.templates.header_cn;
-  document.getElementById('header').innerHTML = header({operation:true});
-  var footer = Handlebars.templates.footer_cn;
+  var header = Handlebars.templates.header_hk;
+  document.getElementById('header').innerHTML = header({boperationusiness:true});
+  var footer = Handlebars.templates.footer_hk;
   document.getElementById('footer').innerHTML = footer();
   </script>
   <script src="assets/js/main.js"></script>
