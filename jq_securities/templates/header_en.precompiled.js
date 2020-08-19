@@ -5,7 +5,7 @@ templates['header_en'] = template({"1":function(container,depth0,helpers,partial
 },"3":function(container,depth0,helpers,partials,data) {
     return "            <li><a href=\"index_en.html\">Company</a></li>\n";
 },"5":function(container,depth0,helpers,partials,data) {
-    return "            <li class=\"active drop-down\"><a href=\"#\">Organization</a>\n              <ul>\n                <li><a href=\"stakeholders_en.html\">股東背景</a></li>\n                <li><a href=\"equity_en.html#\">股權結構</a></li>\n                <li><a href=\"organization_en.html#\">公司結構</a></li>\n              </ul>\n            </li>\n";
+    return "            <li class=\"active drop-down\"><a href=\"#\">Organization</a>\n              <ul>\n                <li><a href=\"stakeholders_en.html\">Stakeholder</a></li>\n                <li><a href=\"equity_en.html#\">股權結構</a></li>\n                <li><a href=\"organization_en.html#\">公司結構</a></li>\n              </ul>\n            </li>\n";
 },"7":function(container,depth0,helpers,partials,data) {
     return "            <li class=\"drop-down\"><a href=\"#\">Organization</a>\n              <ul>\n                <li><a href=\"stakeholders_en.html\">股東背景</a></li>\n                <li><a href=\"equity_en.html#\">股權結構</a></li>\n                <li><a href=\"organization_en.html#\">公司結構</a></li>\n              </ul>\n            </li>\n";
 },"9":function(container,depth0,helpers,partials,data) {
