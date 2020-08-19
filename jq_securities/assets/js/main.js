@@ -7,6 +7,13 @@
 !(function($) {
   "use strict";
 
+  $('.lang-link').on('click', function(e) {
+    var lang =$(this).data('lang');
+    var link = window.location.href;
+    link = link.substring(link.lastIndexOf('/')+1, link.lastIndexOf('.')-2) + lang + '.html';
+    window.location.href = link;
+  });
+
   // Preloader
   $(window).on('load', function() {
     if ($('#preloader').length) {

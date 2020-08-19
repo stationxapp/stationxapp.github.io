@@ -38,6 +38,6 @@ templates['header_cn'] = template({"1":function(container,depth0,helpers,partial
     + ((stack1 = lookupProperty(helpers,"if").call(alias1,(depth0 != null ? lookupProperty(depth0,"operation") : depth0),{"name":"if","hash":{},"fn":container.program(13, data, 0),"inverse":container.program(15, data, 0),"data":data,"loc":{"start":{"line":53,"column":10},"end":{"line":69,"column":17}}})) != null ? stack1 : "")
     + "          \n"
     + ((stack1 = lookupProperty(helpers,"if").call(alias1,(depth0 != null ? lookupProperty(depth0,"aboutus") : depth0),{"name":"if","hash":{},"fn":container.program(17, data, 0),"inverse":container.program(19, data, 0),"data":data,"loc":{"start":{"line":71,"column":10},"end":{"line":75,"column":17}}})) != null ? stack1 : "")
-    + "\n          <li><a href=\"index_hk.html\">繁</a></li>\n          <li><a href=\"index_cn.html\">简</a></li>\n          <li><a href=\"index_en.html\">ENG</a></li> \n\n      </ul>\n      </nav><!-- .nav-menu -->\n\n      <!-- <a href=\"#about\" class=\"get-started-btn\">Get Started</a> -->\n\n    </div>";
+    + "\n          <li><a class=\"lang-link\" href=\"javascript://\" data-lang=\"hk\">繁</a></li>\n          <li><a class=\"lang-link\" href=\"javascript://\" data-lang=\"cn\">简</a></li>\n          <li><a class=\"lang-link\" href=\"javascript://\" data-lang=\"en\">ENG</a></li> \n\n      </ul>\n      </nav><!-- .nav-menu -->\n\n      <!-- <a href=\"#about\" class=\"get-started-btn\">Get Started</a> -->\n\n    </div>";
 },"useData":true});
 })();
