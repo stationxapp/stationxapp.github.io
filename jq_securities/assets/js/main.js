@@ -100,6 +100,13 @@
         }
       }
     });
+    $('.mobile-nav .lang-link').on('click', function(e) {
+      var lang =$(this).data('lang');
+      var link = window.location.href;
+      link = link.substring(link.lastIndexOf('/')+1, link.lastIndexOf('.')-2) + lang + '.html';
+      window.location.href = link;
+    });
+
   } else if ($(".mobile-nav, .mobile-nav-toggle").length) {
     $(".mobile-nav, .mobile-nav-toggle").hide();
   }

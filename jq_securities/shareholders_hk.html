@@ -19,7 +19,7 @@
 
         <ol>
           <li><a href="index.html">回到主頁</a></li>
-          <li>股東背景</li>
+          <li>公司結構</li>
         </ol>
         <h2>股東背景</h2>
       </div>
@@ -52,11 +52,11 @@
   <!-- Template Main JS File -->
   <script src="assets/js/app.min.js"></script>
   <script> 
-  var head = Handlebars.templates.head_en;
+  var head = Handlebars.templates.head_hk;
   document.getElementById('head').innerHTML = head();
-  var header = Handlebars.templates.header_en;
-  document.getElementById('header').innerHTML = header({business:true});
-  var footer = Handlebars.templates.footer_en;
+  var header = Handlebars.templates.header_hk;
+  document.getElementById('header').innerHTML = header({organization:true});
+  var footer = Handlebars.templates.footer_hk;
   document.getElementById('footer').innerHTML = footer();
   </script>
   <script src="assets/js/main.js"></script>

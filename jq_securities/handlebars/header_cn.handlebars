@@ -2,7 +2,9 @@
 
       <!-- <h1 class="logo mr-auto"><a href="index_cn.html">Multi</a></h1> -->
       <!-- Uncomment below if you prefer to use an image logo -->
-      <a href="index_cn.html" class="logo mr-auto"><img src="assets/img/logo_1.jpg" alt="" class="img-fluid"></a>
+      <a href="index_cn.html" class="logo mr-auto">
+        <img src="assets/img/logo_1.jpg" style="max-height:50px" alt="" class="img-fluid">
+        </a>
 
       <nav id="nav-menu" class="nav-menu d-none d-lg-block">
         <ul>
@@ -15,17 +17,13 @@
           {{#if organization}}
             <li class="active drop-down"><a href="#">公司结构</a>
               <ul>
-                <li><a href="stakeholders_cn.html">股东背景</a></li>
-                <li><a href="equity_cn.html#">股权结构</a></li>
-                <li><a href="organization_cn.html#">公司结构</a></li>
+                <li><a href="shareholders_cn.html">股东背景</a></li>
               </ul>
             </li>
           {{else}}
             <li class="drop-down"><a href="#">公司结构</a>
               <ul>
-                <li><a href="stakeholders_cn.html">股东背景</a></li>
-                <li><a href="equity_cn.html#">股权结构</a></li>
-                <li><a href="organization_cn.html#">公司结构</a></li>
+                <li><a href="shareholders_cn.html">股东背景</a></li>
               </ul>
             </li>
           {{/if}}
@@ -37,7 +35,7 @@
                 <li><a href="business_cn.html#">证券经纪服务</a></li>
                 <li><a href="business_cn.html#">证券研究与资产管理</a></li>
                 <li><a href="business_cn.html#">发展</a></li>
-                <li><a href="market_cn.html">客户及市场</a></li>
+                <li><a href="business_cn.html#">客户及市场</a></li>
               </ul>
             </li>
           {{else}}
@@ -47,7 +45,7 @@
                 <li><a href="business_cn.html#">证券经纪服务</a></li>
                 <li><a href="business_cn.html#">证券研究与资产管理</a></li>
                 <li><a href="business_cn.html#">发展</a></li>
-                <li><a href="market_cn.html">客户及市场</a></li>
+                <li><a href="business_cn.html#">客户及市场</a></li>
               </ul>
             </li>
           {{/if}}
