@@ -1,12 +1,3 @@
 git add git_add.sh
-git add jq_securities/assets/js/app.min.js
-git add jq_securities/business_cn.html
-git add jq_securities/business_en.html
-git add jq_securities/business_hk.html
-git add jq_securities/handlebars/footer_cn.handlebars
-git add jq_securities/handlebars/footer_hk.handlebars
-git add jq_securities/index_cn.html
-git add jq_securities/index_en.html
-git add jq_securities/index_hk.html
-git add jq_securities/templates/footer_cn.precompiled.js
-git add jq_securities/templates/footer_hk.precompiled.js
+git add jq_securities/aboutus_cn.html
+git add jq_securities/aboutus_hk.html
