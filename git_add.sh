@@ -1,3 +1,9 @@
+git add npm-debug.log
 git add git_add.sh
-git add jq_securities/aboutus_cn.html
-git add jq_securities/aboutus_hk.html
+git add jq_securities/assets/js/app.min.js
+git add jq_securities/handlebars/header_cn.handlebars
+git add jq_securities/handlebars/header_en.handlebars
+git add jq_securities/handlebars/header_hk.handlebars
+git add jq_securities/templates/header_cn.precompiled.js
+git add jq_securities/templates/header_en.precompiled.js
+git add jq_securities/templates/header_hk.precompiled.js
