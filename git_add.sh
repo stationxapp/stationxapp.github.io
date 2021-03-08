@@ -1,3 +1,2 @@
-git add dashboard/
+git add dashboard/index.html
 git add git_add.sh
-git add npm-debug.log
